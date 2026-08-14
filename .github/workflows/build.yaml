@@ -25,4 +25,4 @@ jobs:
           push: true
           platforms: |
             linux/arm64
-          tags: nginx-jwt:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nginx-jwt:latest
